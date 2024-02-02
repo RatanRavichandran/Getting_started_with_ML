@@ -1,0 +1,7 @@
+The Canny Edge Detection Algorithm consists of the following steps:
+
+1. Noise reduction using Gaussian filter: This step is crucial in the Canny edge detection process. It involves applying a Gaussian filter to the image to remove noise. The kernel should be normalized before applying it as a convolution to the image.
+2. Gradient calculation: After smoothing the image with a Gaussian filter, the derivatives in the x and y directions are calculated using the Sobel-Feldman kernels and convolution with the image.
+3. Non-Maximum Suppression: This step aims to reduce duplicate edge pixels by finding two neighbors in the positive and negative gradient directions for each pixel and suppressing any duplicate pixels.
+4. Double Thresholding: The gradient magnitudes are compared to two specified threshold values. Pixels with gradients smaller than the low threshold value are suppressed, while pixels with gradients higher than the high threshold value are marked as strong edges and included in the final edge map.
+5. Edge Tracking using Hysteresis: Weak edge pixels caused by true edges are connected to strong edge pixels. A pixel with a weak gradient is marked as an edge pixel if it is involved in the same connected component as a pixel with a strong gradient.
