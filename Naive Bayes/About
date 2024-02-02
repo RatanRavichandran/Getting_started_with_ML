@@ -10,4 +10,4 @@ The fundamental assumptions of Naive Bayes include:
 * Normal distribution of continuous features: If a feature is continuous, it is assumed to be normally distributed within each class.
 * Multinomial distribution of discrete features: If a feature is discrete, it is assumed to have a multinomial distribution within each class.
 * Equal importance of features: All features are assumed to contribute equally to the prediction of the class label.
-* No missing data: The data should not contain any missing values.
+* No missing data: The data should not contain any missing values
