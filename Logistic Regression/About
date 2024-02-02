@@ -1,0 +1,18 @@
+Logistic Regression is a supervised machine learning algorithm used for binary classification tasks. It predicts the probability that an instance belongs to a given class based on input variables.
+
+
+Logistic regression is used for binary classification problems where the outcome is either Yes or No, 0 or 1, true or False, etc. Instead of fitting a regression line like in linear regression, we fit an "S" shaped logistic function, which predicts two maximum values (0 or 1).
+The sigmoid function is a mathematical function used to map the predicted values to probabilities. It maps any real value into another value within a range of 0 and 1. The S-form curve is called the Sigmoid function or the logistic function.
+
+## Types of Logistic Regression
+Logistic Regression can be classified into three types based on the categories:
+- Binomial: There can be only two possible types of the dependent variables, such as 0 or 1, Pass or Fail, etc.
+- Multinomial: There can be 3 or more possible unordered types of the dependent variable, such as "cat", "dogs", or "sheep".
+- Ordinal: There can be 3 or more possible ordered types of dependent variables, such as "low", "Medium", or "High".
+
+The assumptions of logistic regression include:
+- Independent observations: Each observation is independent of the other.
+- Binary dependent variables: The dependent variable must be binary or dichotomous.
+- Linearity relationship between independent variables and log odds: The relationship between the independent variables and the log odds of the dependent variable should be linear.
+- No outliers: There should be no outliers in the dataset.
+- Large sample size: The sample size is sufficiently large.
