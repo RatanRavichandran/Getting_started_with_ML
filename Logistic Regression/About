@@ -15,4 +15,4 @@ The assumptions of logistic regression include:
 - Binary dependent variables: The dependent variable must be binary or dichotomous.
 - Linearity relationship between independent variables and log odds: The relationship between the independent variables and the log odds of the dependent variable should be linear.
 - No outliers: There should be no outliers in the dataset.
-- Large sample size: The sample size is sufficiently large.
+- Large sample size: The sample size is sufficiently large
