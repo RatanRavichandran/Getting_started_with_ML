@@ -1,0 +1,16 @@
+Reinforcement Learning is a subfield of Machine Learning that involves an agent learning to interact with an environment in order to maximize a reward signal. The agent takes actions in the environment, observes the results of those actions, and adjusts its behavior based on the rewards it receives. The key concepts in Reinforcement Learning include the agent, environment, action, state, and reward.
+
+The process of Reinforcement Learning involves several steps:
+
+1. Initialization: The agent finds itself in a specific environment and receives the initial state of the environment.
+2. Action: Based on the current state, the agent selects an action to take in the environment.
+3. Reward: After taking the action, the agent receives a reward or penalty from the environment.
+4. Next State: Along with the reward, the environment returns the new state that the agent finds itself in after taking the action.
+5. Policy Update: The agent updates its knowledge based on the reward and the new state, and repeats the process of taking actions and observing rewards until a terminal state is reached.
+
+Reinforcement Learning differs from Supervised Learning in that there is no predefined answer key or target output. Instead, the reinforcement agent must decide for itself how to perform the given task in order to maximize the reward. In the absence of a training dataset, Reinforcement Learning can be challenging, but it has many applications in areas such as robotics, game playing, and autonomous driving.
+
+Consider a simple example of a robot navigating a maze. The robot can take actions such as moving forward or turning, and the environment returns the new position of the robot and a reward signal based on the robot's actions. The robot must learn to take the appropriate actions in order to reach the exit of the maze and receive a positive reward.
+
+
+
