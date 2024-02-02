@@ -1,0 +1,18 @@
+Linear Regression is a widely used statistical method that finds application in predictive analysis. It's one of the simplest and most popular Machine Learning algorithms. The algorithm predicts continuous, real, or numeric variables like sales, salary, age, product price, etc.
+
+Understanding Linear Regression
+Linear Regression establishes a linear relationship between a dependent variable (y) and one or more independent variables (x). This means it determines how the value of the dependent variable changes according to the value of the independent variable.
+
+The mathematical representation of a linear regression model is:
+$$y = a_0 + a_1x + ε$$
+
+Types of Linear Regression
+Linear Regression can be categorized into two types:
+1. Simple Linear Regression: If a single independent variable is used to predict the value of a numerical dependent variable, the algorithm is called Simple Linear Regression.
+2. Multiple Linear Regression: If more than one independent variable is used to predict the value of a numerical dependent variable, the algorithm is called Multiple Linear Regression.
+
+Regression Line
+A regression line is a linear line that shows the relationship between the dependent and independent variables. A regression line can depict two types of relationships:
+
+- Positive Linear Relationship: If the dependent variable increases on the Y-axis and the independent variable increases on the X-axis, the relationship is termed as a Positive linear relationship.
+- Negative Linear Relationship: If the dependent variable decreases on the Y-axis and the independent variable increases on the X-axis, the relationship is called a negative linear relationship.
