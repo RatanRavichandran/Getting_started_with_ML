@@ -1,0 +1,13 @@
+Naive Bayes classifiers are a group of machine learning algorithms that are based on Bayes' Theorem. These algorithms are not a single algorithm but rather a family of algorithms that share a common principle: each pair of features being classified is assumed to be independent of each other.
+
+Naive Bayes classifiers are among the simplest and most effective classification algorithms, making them ideal for rapid model development with quick prediction capabilities.
+
+The name "Naive Bayes" comes from the simplifying assumption made by the algorithm, which assumes that the features used to describe an observation are conditionally independent of each other given the class label. This assumption is based on the work of Reverend Thomas Bayes, an 18th-century statistician and theologian who formulated Bayes' theorem.
+
+The fundamental assumptions of Naive Bayes include:
+
+* Feature independence: The features of the data are conditionally independent of each other, given the class label.
+* Normal distribution of continuous features: If a feature is continuous, it is assumed to be normally distributed within each class.
+* Multinomial distribution of discrete features: If a feature is discrete, it is assumed to have a multinomial distribution within each class.
+* Equal importance of features: All features are assumed to contribute equally to the prediction of the class label.
+* No missing data: The data should not contain any missing values.
