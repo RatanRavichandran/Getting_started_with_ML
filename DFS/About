@@ -1,0 +1,7 @@
+Depth-First Search (DFS) is an algorithm used to traverse or search tree or graph data structures. Unlike Breadth-First Search (BFS), DFS explores as far as possible along each branch before backtracking. The steps in the DFS algo are:
+
+1. Initialization: Start by placing one of the graph's vertices on top of a stack.
+2. Exploration: Take the top item from the stack and add it to the visited list.
+3. Neighbor Discovery: Create a list of the vertex's adjacent nodes. Add the ones that are not already in the visited list to the top of the stack.
+4. Loop: Repeat steps 2 and 3 until the stack is empty.
+To ensure that all vertices are visited, the DFS algorithm can also be run on every node.
