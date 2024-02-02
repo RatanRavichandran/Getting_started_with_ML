@@ -1,0 +1,13 @@
+Decision Trees are a popular machine learning algorithm used for both classification and regression tasks. They are designed to create a flowchart-like structure of nodes, where each node represents a test on an attribute, and each branch represents the outcome of the test. The algorithm recursively splits the training data into subsets based on the attribute values until a stopping criterion is met, such as the maximum depth of the tree or the minimum number of samples required to split a node.
+
+Understanding Decision Trees
+The Decision Tree algorithm works by selecting the best attribute to split the data based on a metric like entropy or Gini impurity, which measures the level of impurity or randomness in the subsets. The goal is to find the attribute that maximizes the information gain or the reduction in impurity after the split. The algorithm continues to split the data until a stopping criterion is met, resulting in a decision tree structure.
+
+Types of Decision Trees
+There are two types of decision trees:
+
+1. Classification Trees: These are used when the response variable is categorical or discrete.
+2. Regression Trees: These are used when the response variable is continuous or numeric.
+
+Attribute Selection Measures
+Attribute selection measures are heuristics used in decision tree algorithms to evaluate the usefulness of different attributes for splitting a dataset. These measures help the algorithm to identify the most informative attributes and to avoid selecting attributes that do not contribute much to the accuracy of the model.
